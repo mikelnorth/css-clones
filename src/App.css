@@ -15,7 +15,7 @@
   color: white; }
 
 .title {
-  font-size: 1.5em; }
+  font-size: 1.8em; }
 
 .img-link, .body .link-container1 .img-link1, .body .link-container2 .img-link1, .body .link-container3 .img-link1, .body .link-container4 .img-link1, .body .link-container2 .img-link2, .body .link-container3 .img-link3, .body .link-container4 .img-link4 {
   width: 275px;
@@ -37,7 +37,10 @@
       width: 300px; }
       .body .link-container1 .link-info1 h2, .body .link-container2 .link-info1 h2, .body .link-container3 .link-info1 h2, .body .link-container4 .link-info1 h2, .body .link-container2 .link-info2 h2, .body .link-container3 .link-info3 h2, .body .link-container4 .link-info4 h2 {
         font-size: 25px;
-        margin: 10px 0 0 20px; }
+        margin: 10px 0 0 20px;
+        color: #171616; }
+      .body .link-container1 .link-info1 h2:hover, .body .link-container2 .link-info1 h2:hover, .body .link-container3 .link-info1 h2:hover, .body .link-container4 .link-info1 h2:hover, .body .link-container2 .link-info2 h2:hover, .body .link-container3 .link-info3 h2:hover, .body .link-container4 .link-info4 h2:hover {
+        cursor: pointer; }
       .body .link-container1 .link-info1 p, .body .link-container2 .link-info1 p, .body .link-container3 .link-info1 p, .body .link-container4 .link-info1 p, .body .link-container2 .link-info2 p, .body .link-container3 .link-info3 p, .body .link-container4 .link-info4 p {
         font-size: 18px;
         margin: 10px 0 0 20px; }
