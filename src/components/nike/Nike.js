@@ -6,7 +6,7 @@ class Nike extends Component {
     render() {
         return (
             <div className="Nike">
-                <div className='header'>
+                <div className='nike-header'>
                     <div className='header-left'>
                         <div>NikePlus</div>
                         <div>img</div>

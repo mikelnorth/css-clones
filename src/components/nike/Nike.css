@@ -3,7 +3,7 @@
   width: 100%;
   background: white; }
 
-.header {
+.nike-header {
   width: 100vw;
   height: 40px;
   color: #8d8d8d;
@@ -14,19 +14,19 @@
   margin: 0;
   padding: 0;
   border-bottom: 1px solid #E5E5E5; }
-  .header .header-left {
+  .nike-header .header-left {
     width: 430px;
     display: flex;
     align-items: center;
     height: 100%;
     font-size: 13px; }
-    .header .header-left div {
+    .nike-header .header-left div {
       border-right: 1px solid #E5E5E5;
       padding: 0 29px 0 29px;
       height: 100%;
       display: flex;
       align-items: center; }
-  .header .header-right {
+  .nike-header .header-right {
     margin-right: 20px;
     width: 328px;
     display: flex;

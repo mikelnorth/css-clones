@@ -13,7 +13,7 @@ class Home extends Component {
 
         <div className='body'>
           <div className='link-container1'>
-            <Link to='/nike'><div className='img-link1'></div></Link>
+            <Link to='/nike' target='_blank'><div className='img-link1'></div></Link>
             <div className='link-info1'>
               <a href='https://www.nike.com/us/en_us/' target='_blank' style={{textDecoration: 'none'}}><h2>Clone of nike.com</h2></a>
               <p>Apple Inc. is an American multinational technology company.</p>
