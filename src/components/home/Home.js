@@ -5,17 +5,21 @@ import {Link} from 'react-router-dom'
 class Home extends Component {
   render() {
     return (
+      // home div will be the outer most container
       <div className="Home">
         <div className="header">
           <h1 className="title">Here are some links to websites I have Cloned</h1><br />
           <p>These websites are not fully functional, but are to show my ability with css styling, flexbox, and SCSS!</p>
         </div>
 
+        {/* body div contains all of the content */}
         <div className='body'>
           <div className='link-container1'>
             <Link to='/nike' target='_blank'><div className='img-link1'></div></Link>
             <div className='link-info1'>
+            {/* link to cloned website. */}
               <a href='https://www.nike.com/us/en_us/' target='_blank' style={{textDecoration: 'none'}}><h2>Clone of nike.com</h2></a>
+              {/* description of cloned website. */}
               <p>Apple Inc. is an American multinational technology company.</p>
             </div>
           </div>

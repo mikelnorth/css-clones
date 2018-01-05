@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Nike.css';
 import logoBlack from '../../assets/air-jordan-logo-black.jpg'
 
+// clone of nike's website, not functional. just to show styling.
 class Nike extends Component {
     render() {
         return (
