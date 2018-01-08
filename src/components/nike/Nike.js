@@ -59,6 +59,9 @@ class Nike extends Component {
 
                 <div className='shoe-container'>
                     <img src={shoes}/>
+                    <img src={shoes}/>
+                    <img src={shoes}/>
+                    <img src={shoes}/>
                 </div>
             </div>
         );
