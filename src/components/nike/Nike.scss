@@ -96,9 +96,10 @@
     border-bottom: 1px solid #E5E5E5;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px;
     .break-content{
-        width: 400px;
+        width: 314px;
     }
     .break-content-top{
         display: flex;
@@ -109,13 +110,11 @@
             font-size: 23.98px;
             margin-bottom: .375em;
             color: #222;
-            font-weight: 400;
-            font-family: OneNikeCurrency,'TradeGothicW01-BoldCn20 675334',Helvetica,Arial,sans-serif;
             font-style: normal;
             font-weight: 700;
             word-spacing: -0.05em;
             letter-spacing: -0.045em;
-            line-height: 23.98px
+            line-height: 23.98px;
         }
 
         .break-info{

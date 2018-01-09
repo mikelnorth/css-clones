@@ -56,8 +56,7 @@ class Nike extends Component {
                 <div className='section-break'>
                     <div className='break-content'>
                         <div className='break-content-top'>
-                            <span className='break-header'>
-                                NEW GOALS FEEL BETTER IN NEW GEAR</span>
+                            <span className='break-header'>Hit the Gym Harder This Year</span>
                             <span className='break-info'>The new Metcon 4 is lighter, tougher and ready for a year of
                              high-intesity training and weightlifting</span>
                             <div className='break-content-bottom'>
