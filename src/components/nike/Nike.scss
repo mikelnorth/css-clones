@@ -4,6 +4,12 @@
     background: white;
 }
 
+.header-container{
+    position: fixed;
+    top: 0;
+    background: white;
+}
+
 .nike-header{
     width: 100vw;
     height: 40px;
@@ -15,6 +21,7 @@
     margin: 0;
     padding: 0;
     border-bottom: 1px solid #E5E5E5;
+    // position: fixed;
 
 
     .header-left{
@@ -24,6 +31,7 @@
         align-items: center;
         height: 100%;
         font-size: 13px;
+        
         div{
             border-right: 1px solid #E5E5E5;
             padding: 0 29px 0 29px;     
@@ -49,6 +57,10 @@
     align-items: center;
     padding: 20px;
     border-bottom: 1px solid #E5E5E5;
+    // position: fixed;
+    // top: 40px;
+    // background: white;
+    
 
     .menu-center{
         display: flex;
@@ -62,6 +74,7 @@
 }
 
 .ad{
+    margin-top: 108px;
     width: 100%;
     height: 60px;
     background: #f7f7f7;
@@ -78,6 +91,20 @@
     height: 16.5vw;
     width: 100%;
     border-bottom: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    .break-content{
+        width: 314px;
+    }
+    .break-content-top{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .break-header{
+            font-weight: bold;
+        }
+    }
 }
 
 .shoe-title{
@@ -85,7 +112,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 0 0 0 3.5vw;
+    padding: 0 0 0 40px;;
     span{
         color: #222;
         font-size: 20px;
@@ -94,10 +121,71 @@
     }
 }
 
+.shoes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 45px 0 45px;
+    
+}
+
 .shoe-container{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     img{
-        width: 266px;
+        width: 22vw;
+        // margin: 10px;
         // width: 100%;
     }
+
+    .shoe-name{
+        margin-top: 25px;
+        line-height: 1.2em;
+        letter-spacing: .03em;
+        margin-bottom: .625em;
+        font-size: .9375em;
+        color: #222;
+        font-style: normal;
+        font-weight: 400;
+
+    }
+}
+
+.shoe-container:nth-child(1n){
+    margin-right: 10px;
+}
+
+.shoe-container:nth-child(4){
+    margin: 0px !important;
+}
+
+.running-pic{
+    width: 100%;
+    margin-top: 20px;
+    img{
+        width: 100%;
+    }
+}
+
+.bras-pic{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+
+.couple-pic{
+    margin-top: 50px;
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+
+.footer-container{
+    margin-top: -3px;
+    width: 100%;
+    height: 307px;
+    background-color: #191919;
 }

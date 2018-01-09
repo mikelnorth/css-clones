@@ -3,6 +3,11 @@
   width: 100%;
   background: white; }
 
+.header-container {
+  position: fixed;
+  top: 0;
+  background: white; }
+
 .nike-header {
   width: 100vw;
   height: 40px;
@@ -48,6 +53,7 @@
       padding: 0 20px 0 20px; }
 
 .ad {
+  margin-top: 108px;
   width: 100%;
   height: 60px;
   background: #f7f7f7; }
@@ -60,20 +66,77 @@
 .section-break {
   height: 16.5vw;
   width: 100%;
-  border-bottom: 1px solid #E5E5E5; }
+  border-bottom: 1px solid #E5E5E5;
+  display: flex;
+  justify-content: center;
+  padding: 20px; }
+  .section-break .break-content {
+    width: 314px; }
+  .section-break .break-content-top {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .section-break .break-content-top .break-header {
+      font-weight: bold; }
 
 .shoe-title {
   height: 5.813vw;
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 0 0 0 3.5vw; }
+  padding: 0 0 0 40px; }
   .shoe-title span {
     color: #222;
     font-size: 20px;
     font-weight: bold; }
 
+.shoes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 45px 0 45px; }
+
 .shoe-container {
+  display: flex;
+  flex-direction: column;
   width: 100%; }
   .shoe-container img {
-    width: 266px; }
+    width: 22vw; }
+  .shoe-container .shoe-name {
+    margin-top: 25px;
+    line-height: 1.2em;
+    letter-spacing: .03em;
+    margin-bottom: .625em;
+    font-size: .9375em;
+    color: #222;
+    font-style: normal;
+    font-weight: 400; }
+
+.shoe-container:nth-child(1n) {
+  margin-right: 10px; }
+
+.shoe-container:nth-child(4) {
+  margin: 0px !important; }
+
+.running-pic {
+  width: 100%;
+  margin-top: 20px; }
+  .running-pic img {
+    width: 100%; }
+
+.bras-pic {
+  width: 100%; }
+  .bras-pic img {
+    width: 100%; }
+
+.couple-pic {
+  margin-top: 50px;
+  width: 100%; }
+  .couple-pic img {
+    width: 100%; }
+
+.footer-container {
+  margin-top: -3px;
+  width: 100%;
+  height: 307px;
+  background-color: #191919; }
