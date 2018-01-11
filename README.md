@@ -1,4 +1,4 @@
-##PIXEL PERFECT CSS CLONES
+# PIXEL PERFECT CSS CLONES
 
 ## About
 This website is to showcase CSS / SCSS compentency by pixel perfect clones of major websites.
